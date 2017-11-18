@@ -1,6 +1,6 @@
-package cn.bumblebee.processer;
+package cn.bumblebee.spider.processer;
 
-public interface JsonProcesser<T> extends Processor{
+public interface JsonProcesser<T> extends Processor<String, T> {
     /**
      *  处理json数据
      * @param json

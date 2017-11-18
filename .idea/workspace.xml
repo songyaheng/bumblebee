@@ -2,24 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adea9d77-d49d-4ffb-b61a-15ed1e901ae5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_40.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bumblebee-spider/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/Spider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/config/ClientConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/processer/HtmlProcessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/processer/HttpProcessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/processer/JsonProcesser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/processer/Processor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/utils/ClientUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/utils/Webutils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bumblebee-spider/src/test/java/cn/bumblebee/test/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bumblebee-spider/src/test/java/cn/bumblebee/test/TestSpider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_23_4_jre.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/AbstractSpider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/AbstractSpiderExecutorService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/commens/SpiderExecutor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/commens/TaskSpider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/processer/CallableReturn.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/processer/CollectionProcessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/processer/HttpProcessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/processer/Processor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/service/AsynService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/utils/Webutils.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/Spider.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/processer/HttpProcessor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/processer/Processor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/utils/Webutils.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/config/ClientConfig.java" afterPath="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/config/ClientConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/processer/HtmlProcessor.java" afterPath="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/processer/HtmlProcessor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/processer/JsonProcesser.java" afterPath="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/processer/JsonProcesser.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/utils/ClientUtils.java" afterPath="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/utils/ClientUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bumblebee-spider/src/test/java/cn/bumblebee/test/Test.java" afterPath="$PROJECT_DIR$/bumblebee-spider/src/test/java/cn/bumblebee/spider/test/Test.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bumblebee-spider/src/test/java/cn/bumblebee/test/TestSpider.java" afterPath="$PROJECT_DIR$/bumblebee-spider/src/test/java/cn/bumblebee/spider/test/TestSpider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/bumblebee.iml" afterPath="$PROJECT_DIR$/.idea/bumblebee.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bumblebee-spider/bumblebee-spider.iml" afterPath="$PROJECT_DIR$/bumblebee-spider/bumblebee-spider.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bumblebee-spider/pom.xml" afterPath="$PROJECT_DIR$/bumblebee-spider/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/bumblebee-spider/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,49 +43,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Spider.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/Spider.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TestSpider.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/test/java/cn/bumblebee/spider/test/TestSpider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/test/java/cn/bumblebee/test/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="5" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestSpider.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/test/java/cn/bumblebee/test/TestSpider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="276">
+              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#294#295#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#357#358#0" expanded="true" />
-                <element signature="e#384#385#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Webutils.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/utils/Webutils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="596">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -82,8 +61,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -101,20 +80,37 @@
         <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/commens/Request.java" />
         <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/config/InitConfig.java" />
         <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/config/SpiderConfig.java" />
-        <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/processer/HtmlProcessor.java" />
-        <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/processer/JsonProcesser.java" />
         <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/commens/Spider.java" />
         <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/commens/Clients.java" />
         <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/commens/Client.java" />
         <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/utils/Client.java" />
-        <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/processer/HttpProcessor.java" />
-        <option value="$PROJECT_DIR$/bumblebee-spider/pom.xml" />
         <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/utils/ClientUtils.java" />
-        <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/config/ClientConfig.java" />
-        <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/utils/Webutils.java" />
         <option value="$PROJECT_DIR$/bumblebee-spider/src/test/java/cn/bumblebee/test/Test.java" />
-        <option value="$PROJECT_DIR$/bumblebee-spider/src/test/java/cn/bumblebee/test/TestSpider.java" />
+        <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/CustomSpider.java" />
+        <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/processer/Processor.java" />
+        <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/processer/HtmlProcessor.java" />
+        <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/processer/HttpProcessor.java" />
+        <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/processer/JsonProcesser.java" />
+        <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/SpiderUtil.java" />
+        <option value="$PROJECT_DIR$/bumblebee-spider/pom.xml" />
+        <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/config/ClientConfig.java" />
+        <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/service/AsynService.java" />
+        <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/utils/Webutils.java" />
         <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/Spider.java" />
+        <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/commens/SpiderExecute.java" />
+        <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/TaskSpider.java" />
+        <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/commens/Task.java" />
+        <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/commens/TaskSpider.java" />
+        <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/AbstractSpider.java" />
+        <option value="$PROJECT_DIR$/bumblebee-spider/src/test/java/cn/bumblebee/test/TestSpider.java" />
+        <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/commens/SpiderExecutor.java" />
+        <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/Spider.java" />
+        <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/SpiderExecutes.java" />
+        <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/processer/CallableReturn.java" />
+        <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/processer/CollectionProcessor.java" />
+        <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/SpiderExecutorService.java" />
+        <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/AbstractSpiderExecutorService.java" />
+        <option value="$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/commens/SpiderExecutor.java" />
       </list>
     </option>
   </component>
@@ -144,10 +140,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1590" />
-    <option name="y" value="83" />
-    <option name="width" value="1485" />
-    <option name="height" value="959" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="805" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -164,8 +159,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,17 +199,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bumblebee" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bumblebee" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bumblebee" type="462c0819:PsiDirectoryNode" />
-              <item name="bumblebee-spider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bumblebee" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bumblebee" type="b2602c69:ProjectViewProjectNode" />
@@ -247,7 +230,9 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -257,9 +242,9 @@
     <property name="jdk.selected.PYTHON_MODULE" value="Python 3.6.2 (~/anaconda3/bin/python)" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -366,44 +351,51 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510731181975</updated>
-      <workItem from="1510731183263" duration="11130000" />
+      <workItem from="1510731183263" duration="11279000" />
+      <workItem from="1510795918642" duration="7198000" />
+      <workItem from="1510899898425" duration="5124000" />
+      <workItem from="1510905349234" duration="1835000" />
+      <workItem from="1510907677558" duration="451000" />
+      <workItem from="1510910930626" duration="5711000" />
+      <workItem from="1510917177653" duration="293000" />
+      <workItem from="1510992635131" duration="11950000" />
+      <workItem from="1511010351423" duration="223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11130000" />
+    <option name="totallyTimeSpent" value="44064000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1590" y="83" width="1485" height="959" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="805" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917532" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917532" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24948025" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29971388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,143 +405,406 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bumblebee-spider/bumblebee-spider.iml">
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/commens/SpiderExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="69">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/commens/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/config/SpiderConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/commens/Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/processer/HtmlProcessor.java">
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/test/java/cn/bumblebee/spider/test/TestSpider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/processer/JsonProcesser.java">
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/AbstractSpider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="299">
+          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/processer/Processor.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5060">
-          <caret line="392" column="13" lean-forward="false" selection-start-line="392" selection-start-column="13" selection-end-line="392" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bumblebee-spider/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        <state relative-caret-position="598">
+          <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/processer/HttpProcessor.java">
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/AbstractSpiderExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3100#3101#0" expanded="true" />
+            <element signature="e#3141#3142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/service/AsynService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="943">
+          <caret line="41" column="26" lean-forward="true" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/test/java/cn/bumblebee/spider/test/TestSpider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/AbstractSpider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/AbstractSpiderExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3100#3101#0" expanded="true" />
+            <element signature="e#3141#3142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/service/AsynService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="36" column="32" lean-forward="true" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/test/java/cn/bumblebee/spider/test/TestSpider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/AbstractSpider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/AbstractSpiderExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3100#3101#0" expanded="true" />
+            <element signature="e#3141#3142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/service/AsynService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/test/java/cn/bumblebee/spider/test/TestSpider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/AbstractSpider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/test/java/cn/bumblebee/spider/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/test/java/cn/bumblebee/spider/test/TestSpider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/utils/Webutils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/bumblebee-spider.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/commens/main.java" />
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/config/SpiderConfig.java" />
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/commens/Request.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip!/java/lang/Class.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar!/org/apache/http/client/methods/HttpRequestBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar!/org/apache/http/client/HttpClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/processer/Processor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/processer/HttpProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/utils/ClientUtils.java">
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/utils/ClientUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="73" column="14" lean-forward="true" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="23">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/config/ClientConfig.java">
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/config/ClientConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-849">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="79" column="36" lean-forward="true" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/test/java/cn/bumblebee/test/TestSpider.java">
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/utils/Webutils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="184">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/test/java/cn/bumblebee/test/Test.java">
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/processer/JsonProcesser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/processer/HtmlProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/commens/Task.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/FutureTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="186" column="13" lean-forward="false" selection-start-line="186" selection-start-column="13" selection-end-line="186" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/processer/CallableReturn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="5" selection-end-column="5" />
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/Spider.java">
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/AbstractSpider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="1288">
+          <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/test/java/cn/bumblebee/spider/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/utils/Webutils.java">
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/commens/TaskSpider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="184">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/service/AsynService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="69" column="17" lean-forward="true" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/processer/CollectionProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/commens/SpiderExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/main/java/cn/bumblebee/spider/AbstractSpiderExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2323">
+          <caret line="103" column="28" lean-forward="true" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3100#3101#0" expanded="true" />
+            <element signature="e#3141#3142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bumblebee-spider/src/test/java/cn/bumblebee/spider/test/TestSpider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -582,7 +837,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Python 3.6.2 (~/anaconda3/bin/python) interpreter library</last-edited>
+          <last-edited>jdk-9.0.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -594,7 +849,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>Python 3.6.2 (~/anaconda3/bin/python)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -619,7 +874,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>9.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

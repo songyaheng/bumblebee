@@ -1,4 +1,4 @@
-package cn.bumblebee.config;
+package cn.bumblebee.spider.config;
 
 import org.apache.http.*;
 import org.apache.http.auth.AuthSchemeProvider;

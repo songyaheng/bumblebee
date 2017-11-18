@@ -1,4 +1,4 @@
-package cn.bumblebee.utils;
+package cn.bumblebee.spider.utils;
 
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
