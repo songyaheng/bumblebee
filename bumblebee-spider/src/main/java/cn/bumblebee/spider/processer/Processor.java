@@ -1,5 +1,5 @@
 package cn.bumblebee.spider.processer;
 
-public interface Processor<E, T> {
-    T process(E e);
+public interface Processor<T, R> {
+    R process(T t);
 }

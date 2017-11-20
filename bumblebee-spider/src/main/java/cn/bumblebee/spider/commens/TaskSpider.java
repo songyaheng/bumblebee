@@ -1,6 +1,7 @@
 package cn.bumblebee.spider.commens;
 
 import cn.bumblebee.spider.config.ClientConfig;
+import cn.bumblebee.spider.modle.PageHtml;
 import cn.bumblebee.spider.processer.HtmlProcessor;
 import cn.bumblebee.spider.processer.JsonProcesser;
 import cn.bumblebee.spider.processer.Processor;
@@ -18,14 +19,14 @@ public class TaskSpider<T extends HttpRequestBase, R> implements Callable<R>{
     private ClientConfig clientConfig = new ClientConfig();
     private T t;
     private String charSet = Webutils.BASE_CHARSET;
-    private Processor<String, R> processor;
+    private Processor<PageHtml<T>, R> processor;
 
-    public TaskSpider(T t, Processor<String, R> processor) {
+    public TaskSpider(T t, Processor<PageHtml<T>, R> processor) {
         this.t = t;
         this.processor = processor;
     }
 
-    public TaskSpider(T t, String charSet, Processor<String, R> processor) {
+    public TaskSpider(T t, String charSet, Processor<PageHtml<T>, R> processor) {
         this.t = t;
         this.charSet = charSet;
         this.processor = processor;
@@ -39,22 +40,50 @@ public class TaskSpider<T extends HttpRequestBase, R> implements Callable<R>{
         this.clientConfig = clientConfig;
     }
 
+    public T getT() {
+        return t;
+    }
 
-    private R run(Processor<String, R> processor) {
-        String name = processor.getClass().getName();
-        if (name.equals(HtmlProcessor.class.getName())) {
+    public void setT(T t) {
+        this.t = t;
+    }
+
+    public String getCharSet() {
+        return charSet;
+    }
+
+    public void setCharSet(String charSet) {
+        this.charSet = charSet;
+    }
+
+    public Processor<PageHtml<T>, R> getProcessor() {
+        return processor;
+    }
+
+    public void setProcessor(Processor<PageHtml<T>, R> processor) {
+        this.processor = processor;
+    }
+
+    private R run() {
+        if (processor instanceof HtmlProcessor) {
             try {
                 CloseableHttpResponse closeableHttpResponse = Webutils.getClient(clientConfig).execute(t);
                 String html = Webutils.buildWithCharset(closeableHttpResponse, this.charSet);
-                return processor.process(html);
+                PageHtml<T> pageHtml = new PageHtml<T>();
+                pageHtml.setHtmlOrJson(html);
+                pageHtml.setRequest(t);
+                return processor.process(pageHtml);
             } catch (Exception e) {
                 e.printStackTrace();
                 return null;
             }
-        } else if (name.equals(JsonProcesser.class.getName())){
+        } else if (processor instanceof JsonProcesser){
             String url = t.getURI().toString();
             String json = Webutils.jsonLoad(url);
-            return processor.process(json);
+            PageHtml<T> pageHtml = new PageHtml<T>();
+            pageHtml.setHtmlOrJson(json);
+            pageHtml.setRequest(t);
+            return processor.process(pageHtml);
         } else {
             return null;
         }
@@ -62,6 +91,6 @@ public class TaskSpider<T extends HttpRequestBase, R> implements Callable<R>{
 
     @Override
     public R call() throws Exception {
-        return run(processor);
+        return run();
     }
 }

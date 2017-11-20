@@ -2,12 +2,13 @@ package cn.bumblebee.spider;
 
 import cn.bumblebee.spider.commens.TaskSpider;
 import cn.bumblebee.spider.config.ClientConfig;
+import cn.bumblebee.spider.modle.PageHtml;
 import cn.bumblebee.spider.processer.Processor;
 import cn.bumblebee.spider.utils.Webutils;
 import org.apache.http.client.methods.HttpRequestBase;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.FutureTask;
+
+import java.util.List;
+import java.util.concurrent.*;
 
 /**
  * 抽象蜘蛛
@@ -20,7 +21,7 @@ public abstract class AbstractSpider<T extends HttpRequestBase, R>{
 
     public AbstractSpider(String charSet) {
         this.charSet = charSet;
-        taskSpider = new TaskSpider<>(this.getRequest(), this.charSet,
+        taskSpider = new TaskSpider(this.getRequest(), this.charSet,
                 this.getProcessor());
         ClientConfig clientConfig = getClientConfig();
         if (clientConfig != null) {
@@ -44,7 +45,7 @@ public abstract class AbstractSpider<T extends HttpRequestBase, R>{
      * 处理过程
      * @return
      */
-    public abstract Processor<String, R> getProcessor();
+    public abstract Processor<PageHtml<T>, R> getProcessor();
 
     /**
      * 启动爬取
@@ -52,8 +53,7 @@ public abstract class AbstractSpider<T extends HttpRequestBase, R>{
      */
     public R run() {
         ExecutorService exec = Executors.newFixedThreadPool(1);
-        FutureTask<R> futureTask =
-                new FutureTask<>(taskSpider);
+        FutureTask<R> futureTask = new FutureTask<R>(taskSpider);
         exec.submit(futureTask);
         R r = null;
         try {

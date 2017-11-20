@@ -1,9 +1,11 @@
 package cn.bumblebee.spider.processer;
 
-public interface HtmlProcessor<T> extends Processor<String, T> {
+import cn.bumblebee.spider.modle.PageHtml;
+
+public interface HtmlProcessor<Q, R> extends Processor<PageHtml<Q>, R> {
     /**
      * 处理HTML文档
      * @param html
      */
-    T process(String html);
+    R process(PageHtml<Q> html);
 }

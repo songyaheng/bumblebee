@@ -12,6 +12,9 @@
         <commens.lang3.version>3.7</commens.lang3.version>
         <fastjson.version>1.2.40</fastjson.version>
         <guava.version>23.4-jre</guava.version>
+        <selenium.version>3.7.1</selenium.version>
+        <jsoup.version>1.11.1</jsoup.version>
+        <xsoup.version>0.3.1</xsoup.version>
     </properties>
     <dependencies>
         <dependency>
@@ -33,6 +36,21 @@
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>${guava.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>${selenium.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>${jsoup.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>us.codecraft</groupId>
+            <artifactId>xsoup</artifactId>
+            <version>${xsoup.version}</version>
         </dependency>
     </dependencies>
 </project>

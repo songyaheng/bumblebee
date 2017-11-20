@@ -116,6 +116,7 @@ public class Webutils {
         ClientUtils clientUtils = ClientUtils.newInstance();
         for (Field field: fields) {
             try {
+                field.setAccessible(true);
                 Object o = field.get(clientConfig);
                 if (o != null) {
                     clientUtils.with(o);
