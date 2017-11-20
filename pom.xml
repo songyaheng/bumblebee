@@ -7,10 +7,6 @@
     <groupId>cn.bumblebee</groupId>
     <artifactId>bumblebee</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <properties>
-        <java.version>1.8</java.version>
-    </properties>
-
     <modules>
         <module>bumblebee-spider</module>
     </modules>
