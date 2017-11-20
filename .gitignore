@@ -1,12 +1,51 @@
+*.iml
 *.class
+*.o
+*.a
+*.so
+*.exe
+*.log
+*.prefs
+*.classpath
+*.metadata
+*.project
+*.bak
+*.springBeans
+.settings
+build
+debug
+target
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.rej
+*.swo
+*.swp
+*.zip
+*.vi
+~*
+*.sass-cache
+*.ruby-version
 
-# Package Files #
-*.jar
-*.war
-*.ear
+# OS or Editor folders
+*.DS_Store
+*._*
+Thumbs.db
+*.cache
+*.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# Komodo
+*.komodoproject
+*.komodotools
+
+# Folders to ignore
+.hg
+.svn
+.CVS
+.idea
