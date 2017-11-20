@@ -6,11 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
         <module name="bumblebee" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="bumblebee" target="1.5" />
+=======
+        <module name="bumblebee-spider" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bumblebee-spider" target="1.5" />
+>>>>>>> master
     </bytecodeTargetLevel>
   </component>
 </project>

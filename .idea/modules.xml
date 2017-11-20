@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/bumblebee.iml" filepath="$PROJECT_DIR$/bumblebee.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/bumblebee.iml" filepath="$PROJECT_DIR$/.idea/bumblebee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bumblebee-spider/bumblebee-spider.iml" filepath="$PROJECT_DIR$/bumblebee-spider/bumblebee-spider.iml" />
+>>>>>>> master
     </modules>
   </component>
 </project>
