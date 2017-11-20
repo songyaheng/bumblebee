@@ -147,6 +147,15 @@ public abstract class AbstractSpiderExecutorService<T extends HttpRequestBase, R
     public void run() {
         spiderExecutor.start();
     }
+
+    /**
+     * 启动并行任务执行
+     */
+    public void runAsyn() {
+        spiderExecutor.startAsyn();
+    }
+
+
     /**
      * 关闭所有线程
      */
