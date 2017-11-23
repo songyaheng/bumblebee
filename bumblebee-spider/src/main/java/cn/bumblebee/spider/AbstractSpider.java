@@ -52,17 +52,7 @@ public abstract class AbstractSpider<T extends HttpRequestBase, R>{
      * @return
      */
     public R run() {
-        ExecutorService exec = Executors.newFixedThreadPool(1);
-        FutureTask<R> futureTask = new FutureTask<R>(taskSpider);
-        exec.submit(futureTask);
-        R r = null;
-        try {
-            r = futureTask.get();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        exec.shutdown();
-        return r;
+        return taskSpider.run();
     }
 
 }

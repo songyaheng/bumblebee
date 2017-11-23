@@ -13,6 +13,9 @@ import org.apache.http.client.methods.HttpGet;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
+/**
+ * 爬取小米应用评论
+ */
 public class MutiTaskSpider extends AbstractSpiderExecutorService<HttpGet, String>{
 
     public MutiTaskSpider() {

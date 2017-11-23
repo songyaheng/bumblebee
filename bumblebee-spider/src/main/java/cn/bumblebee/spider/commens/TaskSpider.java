@@ -64,7 +64,7 @@ public class TaskSpider<T extends HttpRequestBase, R> implements Callable<R>{
         this.processor = processor;
     }
 
-    private R run() {
+    public R run() {
         if (processor instanceof HtmlProcessor) {
             try {
                 CloseableHttpResponse closeableHttpResponse = Webutils.getClient(clientConfig).execute(t);

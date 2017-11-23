@@ -8,6 +8,7 @@ import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpRequestBase;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.util.EntityUtils;
+import org.openqa.selenium.WebDriver;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -177,4 +178,5 @@ public class Webutils {
         sb.append(StringUtils.join(par, '&'));
         return sb.toString();
     }
+
 }

@@ -3,6 +3,7 @@ package cn.bumblebee.spider.utils;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.impl.client.HttpClients;
+import org.openqa.selenium.WebDriver;
 
 import java.lang.reflect.Method;
 

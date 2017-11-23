@@ -7,14 +7,15 @@
     <artifactId>bumblebee-spider</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <properties>
-        <java.version>1.8</java.version>
+        <java.version>1.9</java.version>
         <http.client.version>4.5.3</http.client.version>
         <commens.lang3.version>3.7</commens.lang3.version>
+        <commens.collections.version>3.2.2</commens.collections.version>
         <fastjson.version>1.2.40</fastjson.version>
-        <guava.version>23.4-jre</guava.version>
-        <selenium.version>3.7.1</selenium.version>
+        <selenium.version>3.4.0</selenium.version>
         <jsoup.version>1.11.1</jsoup.version>
         <xsoup.version>0.3.1</xsoup.version>
+        <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
     </properties>
     <dependencies>
         <dependency>
@@ -28,14 +29,14 @@
             <version>${commens.lang3.version}</version>
         </dependency>
         <dependency>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections</artifactId>
+            <version>${commens.collections.version}</version>
+        </dependency>
+        <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>${fastjson.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.google.guava</groupId>
-            <artifactId>guava</artifactId>
-            <version>${guava.version}</version>
         </dependency>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -53,4 +54,18 @@
             <version>${xsoup.version}</version>
         </dependency>
     </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven-compiler-plugin.version}</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
