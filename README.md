@@ -1,5 +1,5 @@
-#Bumblebee
-是一系列的数据爬虫，处理，NLP等框架目前仅有爬虫
+# Bumblebee
+ 爬虫框架，NLP，数据结构等
 
 **Bumblebee-spider**
 
