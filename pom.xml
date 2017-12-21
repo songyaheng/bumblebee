@@ -6,8 +6,10 @@
 
     <groupId>cn.bumblebee</groupId>
     <artifactId>bumblebee</artifactId>
+    <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
     <modules>
         <module>bumblebee-spider</module>
+        <module>bumblebee-trie</module>
     </modules>
 </project>

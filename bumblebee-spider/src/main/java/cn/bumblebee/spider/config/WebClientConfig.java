@@ -1,5 +1,6 @@
 package cn.bumblebee.spider.config;
 
+import cn.bumblebee.spider.modle.Login;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
@@ -13,6 +14,8 @@ public class WebClientConfig {
     private List<Cookie> cookies;
     private DesiredCapabilities desiredCapabilities;
     private String proxyIp;
+    private Login login;
+    private String driverPath;
 
     public String getProxyIp() {
         return proxyIp;
@@ -28,6 +31,22 @@ public class WebClientConfig {
 
     public void setDesiredCapabilities(DesiredCapabilities desiredCapabilities) {
         this.desiredCapabilities = desiredCapabilities;
+    }
+
+    public String getDriverPath() {
+        return driverPath;
+    }
+
+    public void setDriverPath(String driverPath) {
+        this.driverPath = driverPath;
+    }
+
+    public Login getLogin() {
+        return login;
+    }
+
+    public void setLogin(Login login) {
+        this.login = login;
     }
 
     public List<Cookie> getCookies() {

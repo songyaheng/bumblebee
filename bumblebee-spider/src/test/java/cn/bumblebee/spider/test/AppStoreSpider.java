@@ -23,7 +23,7 @@ public class AppStoreSpider extends AbstractSpider<HttpGet,String> {
 
     @Override
     public HttpGet getRequest() {
-        HttpGet httpGet = new HttpGet("https://itunes.apple.com/WebObjects/MZStore.woa/wa/userReviewsRow?cc=cn&id=923920872&displayable-kind=11&startIndex=0&endIndex=100&sort=0&appVersion=all");
+        HttpGet httpGet = new HttpGet("https://itunes.apple.com/WebObjects/MZStore.woa/wa/userReviewsRow?cc=cn&id=923920872&displayable-kind=11&startIndex=0&endIndex=10&sort=0&appVersion=all");
         httpGet.setHeader("User-Agent", "iTunes/11.0 (Windows; Microsoft Windows 7 Business Edition Service Pack 1 (Build 7601)) AppleWebKit/536.27.1");
         return httpGet;
     }
